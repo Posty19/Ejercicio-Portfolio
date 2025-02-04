@@ -256,3 +256,35 @@ h1{
 }
 
 /* --------------- PORTFOLIO end ---------------------- */
+
+/* ---------------- CONTACTO ---------------------------*/
+.contacto{
+  background-color: #fff;
+}
+.contacto__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 60dvh;
+  max-width: 100%;
+  background-color: #e2eaff;
+  margin: auto;
+  padding: 20px;
+}
+.contacto__title{
+  color: #4488ee;
+  font-size: 2.5rem;
+}
+.contacto__form{
+  width: 60dvw;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  gap: 10px;
+}
+.contacto__form imput{
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #4488ee;
+}

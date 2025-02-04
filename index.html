@@ -28,8 +28,10 @@
         <nav class="header__nav">
           <ul class="header__nav-list">
             <li class="header__nav-item"><a href="#perfil">PERFIL</a></li>
-            <li class="header__nav-item"><a href="#portfolio">PORTAFOLIO</a></li>
-            <li class="header__nav-item"><a href="#">CONTACTO</a></li>
+            <li class="header__nav-item">
+              <a href="#portfolio">PORTAFOLIO</a>
+            </li>
+            <li class="header__nav-item"><a href="#contacto">CONTACTO</a></li>
           </ul>
         </nav>
       </div>
@@ -43,7 +45,6 @@
             class="profile__img"
           />
         </div>
-
         <div class="profile-data-container">
           <div class="profile__data">
             <div class="profile__description">
@@ -94,25 +95,49 @@
     <section class="portfolio" id="portfolio">
       <h2 class="portfolio__title">Portfolio</h2>
       <div class="portfolio__project-contanier">
-          <div class="portfolio__project">
-              <div class="portfolio__proyect-name">nombre proyecto</div>
-          </div>
-          <div class="portfolio__project">
-              <div class="portfolio__proyect-name">nombre proyecto</div>
-          </div>
-          <div class="portfolio__project">
-              <div class="portfolio__proyect-name">nombre proyecto</div>
-          </div>
-          <div class="portfolio__project">
-              <div class="portfolio__proyect-name">nombre proyecto</div>
-          </div>
-          <div class="portfolio__project">
-              <div class="portfolio__proyect-name">nombre proyecto</div>
-          </div>
-          <div class="portfolio__project">
-              <div class="portfolio__proyect-name">nombre proyecto</div>
+        <div class="portfolio__project">
+          <div class="portfolio__proyect-name">nombre proyecto</div>
+        </div>
+        <div class="portfolio__project">
+          <div class="portfolio__proyect-name">nombre proyecto</div>
+        </div>
+        <div class="portfolio__project">
+          <div class="portfolio__proyect-name">nombre proyecto</div>
+        </div>
+        <div class="portfolio__project">
+          <div class="portfolio__proyect-name">nombre proyecto</div>
+        </div>
+        <div class="portfolio__project">
+          <div class="portfolio__proyect-name">nombre proyecto</div>
+        </div>
+        <div class="portfolio__project">
+          <div class="portfolio__proyect-name">nombre proyecto</div>
+        </div>
+      </div>
+    </section>
+    <section class="contacto" id="contacto">
+      <div class="contacto__wrapper">
+        <h2 class="contacto__title">Contacto</h2>
+          <div class="contacto-form-container">
+            <form action="" class="contacto__form">
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="name" id="nombre" placeholder="nombre">
+              <label for="apellido">Apellido:</label>
+              <input type="text" name="name" id="apellido" placeholder="Apellido/s">
+
+              <label for="corroe">Correo de contacto</label>
+              <input type="email" name="mail" id="correo">
+
+              <label for="cita">Fecha de la cita</label>
+              <input type="date" name="meeting" id="cita">
+
+              <label for="mensaje">Escriba su mensaje</label>
+              <textarea name="" id="mensaje"></textarea>
+
+              <input type="submit" value="Enviar">
+            </form>
           </div>
       </div>
-  </section>
+    </section>
   </body>
 </html>
