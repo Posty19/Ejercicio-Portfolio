@@ -199,3 +199,40 @@ h1{
   }
   
 }
+/* --------------- PORTFOLIO section ---------------------- */
+.portfolio{
+  background-color: #18233f;
+  color: #e2eaff;
+  min-height: 75dvh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  
+}
+.portfolio__title{
+  font-size: 2.5;
+}
+.portfolio__project-contanier{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  gap: 20px;
+  margin: 0;
+  width: 100%;
+  padding: 12px;
+}
+.portfolio__project{
+  background-image: linear-gradient(#000,#0006), url('https://picsum.photos/200/300');
+  background-size: cover;
+  background-position: center;
+  min-height: 30dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.portfolio__proyect-name{
+  font-size: 2rem;
+  text-shadow: 0 0 15px #000;
+}
