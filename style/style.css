@@ -236,3 +236,23 @@ h1{
   font-size: 2rem;
   text-shadow: 0 0 15px #000;
 }
+/* --------------- PORTFOLIO QUERIES ---------------------- */
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .portfolio__project-contanier{
+      grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+      max-width: 1200px;
+      margin: auto;
+      
+  }
+  .portfolio__project:first-child{
+      grid-row: span 2;
+      grid-column: span 2;
+  }
+  .portfolio__project:last-child{
+      grid-column: span 4;
+  }
+
+
+}
+
+/* --------------- PORTFOLIO end ---------------------- */
