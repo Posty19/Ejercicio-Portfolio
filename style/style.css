@@ -116,3 +116,58 @@ li{
 }
 }
 /* --------------- FINAL DEL HEADER---------------------- */
+/* --------------- MAIN ---------------------- */
+
+/* --------------- PROFILE section ---------------------- */
+.profile__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+.profile__img{
+  max-width: 100%;
+  width: 500px;
+}
+
+h1{
+  color: #4488ee;
+  text-align: center;
+}
+.profile__description p{
+  text-align: center;
+}
+.profile__skills-container h2{
+  color: #18233f;
+  text-align: center;
+}
+.load-bar{
+  border: 1px solid #4488ee;
+  border-radius: 6px;
+  color: #e2eaff;
+  padding: 2px;
+  font-size: .8rem;
+  width: 80%;
+  margin: 4px 0px;
+}
+.load-bar__barr{
+  background-color: #18233f;
+  border-radius: 4px;
+  padding: 4px 6px;
+  
+}
+.profile__skil{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 10px;
+}
+.barr--80{
+  width: 80%;
+}
+.barr--70{
+  width: 70%;
+}
+.barr--60{
+  width: 60%;
+}
